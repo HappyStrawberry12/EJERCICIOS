@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Strawberry</title>
     <link rel="icon" href="./icono/fruti.ico">
+    <link href="https://fonts.google.com/specimen/Crafty+Girls?lang=es_Latn&categoryFilters=Calligraphy:%2FScript%2FInformal" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/styleHS.css">
-
 </head>
+
 <body>
     <header>
-        <img src="logo/logo.png" alt="logo de mi tienda" title="logo de mi tienda"height="171px" width="800px">
+        <img src="./logo/LOGO2.png" alt="logo de mi tienda" title="logo de mi tienda" height="171px" width="800px">
     </header>
-    <nav>
-        <ul>
+    <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </label>
+        <ul class="nav-list">
             <li><a href="./HAPPY STRAWBERRY.html">Inicio</a></li>
             <li><a href="./productos.html">Productos</a></li>
             <li><a href="./Formulario.html">Contacto</a></li>
             <li><a href="./bienvenidos.html">Bienvenidos</a></li>
         </ul>
     </nav>  
-    <section>
-        <main>
-            <img src="./COSAS DE MI TIENDA ONLINE/EJEMPLO DE PRODUCTOS.jpg" alt="EJEMPLO" title="ep"height="500px" width="333px">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iu3d979F95Q?si=S27eDcGRP5YBB23l" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe> 
-        </main>
+    <section class="main-content">
+        <div class="image">
+            <img src="./COSAS DE MI TIENDA ONLINE/EJEMPLO DE PRODUCTOS.jpg" alt="EJEMPLO" title="ep" height="500px" width="333px">
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iu3d979F95Q?si=S27eDcGRP5YBB23l" title="Video Promocional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </section>
 
     <footer>
