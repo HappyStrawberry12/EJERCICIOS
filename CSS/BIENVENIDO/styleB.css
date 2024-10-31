@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffc0e6;
+    background-image: url("../../fresas_fondo.jpg");
+    background-size: 80vw 250vh;
+    font-family: "Josefin Sans", sans-serif;
+}
