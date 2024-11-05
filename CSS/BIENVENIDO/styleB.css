@@ -1,13 +1,173 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
 }
 
+
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #ffc0e6;
-    background-image: url("../../fresas_fondo.jpg");
-    background-size: 80vw 250vh;
-    font-family: "Josefin Sans", sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe4f4;
+  background-size: 80vw 250vh;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
 }
+
+.header{
+  background-color: #ffd7ee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+.header .logo {
+  cursor: pointer;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.1);
+}
+
+.header .nav-links a {
+  font-size: 700;
+  color: #f10091;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: #a20061;
+}
+
+.header .btn button{
+  font-weight: 700;
+  color: #a20061;
+  padding: 9px 25px;
+  background: #ffc0e6;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+  background-color: #a20061;
+  color: #ffc0e6;
+  transform: scale(1.1);
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.bannerfresar {
+  height: 180px; 
+  width: 758px;
+}
+
+.letras {
+  padding: 12px;
+  margin: 12px;
+  border: dotted;
+  border-color: #ff6abc;
+  color: #a20061;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.footer {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    background-color: transparent;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+  }
+  
+  .icon-elem {
+    list-style: none;
+  }
+  
+  .icon {
+    color: rgb(254, 42, 173);
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+  }
+  
+  .icon:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .menu-elem {
+    list-style: none;
+  }
+  .menu-icon {
+    color: rgb(254, 42, 173);
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .menu-icon:hover {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(254, 42, 173);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  
