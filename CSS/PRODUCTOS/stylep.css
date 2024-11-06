@@ -81,42 +81,40 @@
   }
   
   .footer {
-    position: relative;
-    top: 100px;
-    width: 100%;
     background-color: transparent;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+    padding: 20px;
   }
   
   .social-icon {
+    list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: 10px 5px;
-    flex-wrap: wrap;
+    margin: 10px 0;
   }
   
   .icon-elem {
-    list-style: none;
+    margin: 0 10px;
   }
   
   .icon {
-    color: rgb(254, 42, 173);
-    font-size: 32px;
-    display: inline-block;
-    margin: 0 10px;
-    transition: 0.5s;
+    color: rgb(252, 1, 118);
+    text-decoration: none;
+    transition: color 0.3s;
   }
   
+  
+  
   .icon:hover {
-    transform: translateY(-10px);
+    color: #efb1d2; 
   }
+  
+  .text {
+    margin-top: 10px;
+    font-size: 100x; 
+  }
+  
   
   .menu {
     display: flex;
